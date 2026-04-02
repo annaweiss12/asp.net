@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Chapter2_2</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include=".config\dotnet-tools.json" />
+    <Content Include="Properties\launchSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+    <Folder Include="Properties\ServiceDependencies\" />
+    <Folder Include="wwwroot\bootstrap\css\" />
+    <Folder Include="wwwroot\bootstrap\js\" />
+    <Folder Include="wwwroot\bootstrap\scss\forms\" />
+    <Folder Include="wwwroot\bootstrap\scss\helpers\" />
+    <Folder Include="wwwroot\bootstrap\scss\mixins\" />
+    <Folder Include="wwwroot\bootstrap\scss\utilities\" />
+    <Folder Include="wwwroot\bootstrap\scss\vendor\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="FutureValue.csproj" />
+    <None Include="FutureValue.csproj.user" />
+  </ItemGroup>
+
+</Project>
